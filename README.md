@@ -15,6 +15,7 @@ INSTRUCTIONS:
 9.	Then, it will prompt you to enter the port number you used on for the server.  
 10.	If you get an error CONN REFUSED, most likely, the server isn’t up or the port isn’t matched.  
 11.	If successful, you should see a prompt telling you to enter a math problem.  
+12.	To end the application, type "0/0=" as a math problem. This will also shut the server down.  
 
 The input format is a number (float) followed by an operand that can be ‘+’, ‘-‘, ‘*’, ‘/’ followed by another number (float).  
 Examples: (white space does not matter)  
@@ -25,6 +26,6 @@ Examples: (white space does not matter)
 NOTE: other input can be placed after the 2nd operand, but it will not be used or sent to the server.  
 Examples:  
 	45-2 =  
-	35 * 2 ignoredValues123  
-	
-12.	To end the application, type “0/0=” as a math problem. This will also shut down the server.
+	35 * 2 ignoredValues123
+
+
